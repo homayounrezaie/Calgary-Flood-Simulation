@@ -2,7 +2,7 @@
 
 GPU flash-flood simulation of Calgary's Bow / Elbow river confluence, rendered as a 3D animation over LiDAR terrain and aerial imagery.
 
-![June 2013-scale flood at the Bow / Elbow confluence](assets/preview.png)
+![Animated simulation of a June 2013-scale flood at the Bow / Elbow confluence](assets/calgary_flood_2013.gif)
 
 - **Model** (`sim.py`): local-inertial shallow-water equations (Bates et al. 2010) in PyTorch, runs on CUDA, Apple MPS or CPU. Takes rainfall plus optional Bow and Elbow river inflows, and treats buildings as obstacles.
 - **Render** (`render.py`): ray-marched 3D terrain with the imagery draped on top and water coloured by depth.
