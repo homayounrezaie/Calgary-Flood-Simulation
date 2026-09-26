@@ -1,4 +1,6 @@
-data/
+data/*.npz
+data/*.txt
+data/*.log
 out/
 __pycache__/
 .DS_Store

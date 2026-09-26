@@ -10,7 +10,7 @@ GPU flash-flood simulation of Calgary's Bow / Elbow river confluence, rendered a
 
 ## Run
 
-Put `calgary_dtm.tif`, `calgary_dsm.tif` and `calgary_rgb.tif` in `data/`, then:
+The input rasters (`calgary_dtm.tif`, `calgary_dsm.tif`, `calgary_rgb.tif`) are in `data/`. Simulation results (`data/sim_*.npz`) are not included; `sim.py` writes them.
 
 ```bash
 pip install -r requirements.txt
